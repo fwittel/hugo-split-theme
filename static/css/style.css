@@ -1,0 +1,22 @@
+:root {
+    --main-bg-color: black;
+    --main-text-color: hotpink;
+    --main-title-color: white;
+  }
+  
+  body {
+    background-color: var(--main-bg-color);
+  }
+  
+  .split-intro h1, .split-intro .tagline {
+    color: var(--main-title-color);
+  }
+  
+  .split-bio p {
+    color: var(--main-text-color)
+  }
+  
+  /* Layout */
+  .split-lists .split-list {
+    width: unset;
+  }
